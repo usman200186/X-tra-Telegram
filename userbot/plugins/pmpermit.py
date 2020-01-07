@@ -9,8 +9,8 @@ PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 
 
-USER_BOT_WARN_ZERO = "I am currently offline. Please do not SPAM me.Else gaand mara dunga bsdk "
-USER_BOT_NO_WARN = "`[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀]\n\nHello, this is X-tra-Telegram Security Service. If you spam you will be reported and blocked, so make sure you **DON'T SPAM**.\n\nYour companionship is always an opportunity But Sed This line is not for you.\n\n Leave your name, phone number, address and 10k$ and hopefully you'll get a reply within 2 light years. `"
+USER_BOT_WARN_ZERO = "I am currently offline or busy. Please do not SPAM or you will get blocked"
+USER_BOT_NO_WARN = "Hello, I'm busy right now so don't spam please or you will be blocked and reported. \n If you need free accounts, I don't give free accounts to anyone in private messages I giveaway accounts or sell them. \n If you need cheapp accounts, you can visit my website: itsbuddyshop.myshopify.com \n Thank you!"
 
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
