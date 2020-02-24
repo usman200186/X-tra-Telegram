@@ -33,13 +33,13 @@ async def startmute(event):
     else:
         return await event.edit("You can't mute a person without admin rights")
     if is_muted(userid, chat_id):
-        return await event.edit("This user is already muted in this chat")
+        return await event.edit("This bitch is already duct taped in this chat")
     try:
         mute(userid, chat_id)
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully muted that person")
+        await event.edit("Duct-Taping this bitch")
 
 @command(outgoing=True, pattern=r"^.unmute ?(\d+)?")
 async def endmute(event):
@@ -67,7 +67,7 @@ async def endmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Successfully unmuted that person")
+        await event.edit("Removing bitch's duct tape so he can speak")
 
 @command(incoming=True)
 async def watcher(event):
