@@ -32,18 +32,21 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-        
-            "`Connecting To Hacked Private Server...`",
+       
+            "`Calling Mr.Robot`",
+            "`Mr.Robot Agreed to fuck your ass`",
+            "`Connecting To Mr.Robot's Anonymous Server...`",
+            "`Mr.Robot Starting His Hacks`",
             "`Target Selected.`",
-            "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
-            "`Hacking... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Hacking... 84%\n█████████████████████▒▒▒▒ `",
+            "`Hacking External Storage... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Hacking Sd Card... 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Hacking My Files... 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",    
+            "`Hacking Camera... 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Searching & Saving Nudes... 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Locking Your Device... 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Hacking Snapchat Nudes... 84%\n█████████████████████▒▒▒▒ `",
             "`Hacking... 100%\n█████████HACKED███████████ `",
-            "`Targeted Account Hacked...\n\nPay 69$ To` @ItsBuddy007 `Or send nudes of female Homo Sapiens To Remove This Hack`"
+            "`Target Successfully Hacked...\n\nPay 69$ To` @ItsBuddy007 `Or suck my dick to remove This Hack`"
         ]
 
         for i in animation_ttl:
