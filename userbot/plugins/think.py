@@ -43,7 +43,7 @@ async def _(event):
             "NGITHKIN",
             "WTF I CANT THINK",
             "THINKING",
-            "WTF IS THIZZZ,
+            "WTF IS THIZZZ",
             "T+IN@I?G",
             "BRAIN SHUTDOWN",
             "¶H×NK&N*",
