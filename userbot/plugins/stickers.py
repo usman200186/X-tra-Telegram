@@ -46,8 +46,8 @@ async def _(event):
 
     me = borg.me
     userid = event.from_id
-    packname = f"@A_Dark_Princ3 ki gufa me {userid}"
-    packshortname = f"Anubis_ki_gufa_me_{userid}"  # format: Uni_Borg_userid
+    packname = f"@ITSBUDDY DANK PACK{userid}"
+    packshortname = f"ItsBuddy_Dank_Pack{userid}"  # format: Uni_Borg_userid
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@UniBorg_Sticker.png"
@@ -58,7 +58,7 @@ async def _(event):
         uploaded_sticker = await borg.upload_file(file, file_name=file_ext_ns_ion)
         packname = f"{userid}'s @AnimatedStickersGroup"
         if userid == 719877937:
-            packshortname = "TheAnubis_Animated"
+            packshortname = "ItsBuddy_Animated"
         else:
             packshortname = f"Uni_Borg_{userid}_as" # format: Uni_Borg_userid
     elif not is_message_image(reply_message):
@@ -70,7 +70,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("`Look dat way,it's a gurl!Meanwhile lemme kang this stcker over hehe 0.0`")
+    await event.edit("`THIS STICKER IS MINE NIGGA. IF YOU GOT OFFENDED YOU CAN KILL YOURSELF`")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
@@ -122,7 +122,7 @@ async def _(event):
             await silently_send_message(bot_conv, sticker_emoji)
             await silently_send_message(bot_conv, "/done")
 
-    await event.edit(f"**BOOM BOI!**\n`Sticker added! This sticker has been stolen to` [this place](t.me/addstickers/{packshortname})"
+    await event.edit(f"**Sticker Stolen Successfully!**\n`Sticker added! This sticker has been stolen to` [this place](t.me/addstickers/{packshortname})"
                      f" by {DEFAULTUSER}")
 
 
