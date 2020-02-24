@@ -23,8 +23,8 @@ async def _(event):
             "What",
             "What The",
             "What The F",
-            "What The F Brah",
-            "What The Fuck Brah Nigga "
+            "What The F Man",
+            "There is still time to delete this shit "
         ]
 
         for i in animation_ttl:
