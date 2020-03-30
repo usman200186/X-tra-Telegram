@@ -18,7 +18,7 @@ async def startmute(event):
     elif private is True:
         userid = event.chat_id
     else:
-        return await event.edit("Please reply to a user or add their into the command to mute them.")
+        return await event.edit("Please reply to the bitch whom you want to mute.")
     chat_id = event.chat_id
     chat = await event.get_chat()
     if "admin_rights" in vars(chat) and vars(chat)["admin_rights"] is not None: 
@@ -39,7 +39,9 @@ async def startmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Duct-Taping this bitch")
+        await event.edit("this bitch will not be able to spread cancer from his/her mouth now!")
+        
+
 
 @command(outgoing=True, pattern=r"^.unmute ?(\d+)?")
 async def endmute(event):
@@ -58,7 +60,7 @@ async def endmute(event):
     elif private is True:
         userid = event.chat_id
     else:
-        return await event.edit("Please reply to a user or add their into the command to unmute them.")
+        return await event.edit("Please reply to a user to unmute them.")
     chat_id = event.chat_id
     if not is_muted(userid, chat_id):
         return await event.edit("This user is not muted in this chat")
@@ -67,7 +69,7 @@ async def endmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Removing bitch's duct tape so he can speak")
+        await event.edit("bitch's duct tape removed!")
 
 @command(incoming=True)
 async def watcher(event):
